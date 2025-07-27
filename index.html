@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarif PNBP - BARANTIN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📋 Daftar Tarif PNBP</h1>
+    <p>BKHIT Kepulauan Riau | Berdasarkan PMK No. 27 Tahun 2024</p>
+  </header>
+
+  <main>
+    <input type="text" id="searchInput" placeholder="🔍 Cari layanan atau kategori..." onkeyup="searchTable()">
+    
+    <table id="tarifTable">
+      <thead>
+        <tr>
+          <th>Jenis Layanan</th>
+          <th>Subkategori</th>
+          <th>Unit</th>
+          <th>Tarif (Rp)</th>
+          <th>Jenis Tarif</th>
+          <th>Kategori</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pemeriksaan Salmonella</td>
+          <td>Laboratorium Ikan</td>
+          <td>Per Sampel</td>
+          <td>125.000</td>
+          <td>Volatil</td>
+          <td>Ikan</td>
+        </tr>
+        <tr>
+          <td>Vaksinasi Anjing</td>
+          <td>Tindakan Karantina Hewan</td>
+          <td>Per Ekor</td>
+          <td>20.000</td>
+          <td>Mendesak</td>
+          <td>Hewan</td>
+        </tr>
+        <tr>
+          <td>Uji Aflatoksin</td>
+          <td>Laboratorium Tumbuhan</td>
+          <td>Per Sampel</td>
+          <td>250.000</td>
+          <td>Volatil</td>
+          <td>Tumbuhan</td>
+        </tr>
+        <tr>
+          <td>Desinfeksi Produk Hewan</td>
+          <td>Tindakan Karantina Hewan</td>
+          <td>Per m³</td>
+          <td>500</td>
+          <td>Mendesak</td>
+          <td>Hewan</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>© 2025 Badan Karantina Indonesia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
